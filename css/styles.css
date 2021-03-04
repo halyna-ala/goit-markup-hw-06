@@ -602,7 +602,16 @@ border-radius: 4px;
 background-color: transparent;
 color: var(--hero-100pr)
 }
+ 
+.leter-btn {
+position: absolute;
+top: 50%;
+right: 28px;
+transform: translateY(-50%);
+/* padding-left: 10px; */
 
+fill: var(--hero-100pr);
+}
 /* button */
 .button {
     border-radius: 4px;
@@ -618,10 +627,17 @@ color: var(--hero-100pr)
     line-height: 1.87; 
     letter-spacing: 0.06em;
     align-items: center;
+    cursor: pointer;
 }
 
 .button-footer {
-    padding: 10px 29px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    padding-top: 10px;
+    padding-right: 62px;
+    padding-bottom: 10px;
+    padding-left: 29px;
     font-family: inherit;
 margin-left: 12px;
 font-weight: 700;
@@ -635,7 +651,8 @@ border: 1px solid transparent;
 color: var(--hero-100pr);
 background-color: var(--akcent-color);
 
-box-shadow: var(--shadow-button)
+box-shadow: var(--shadow-button);
+cursor: pointer;
 }
 
 .title-btn {
@@ -843,23 +860,6 @@ transition: opacity var(--animation);
   background-color: inherit
 }
 
-
-
-
-
-
-/* .modal-colose {
-    position: absolute;
-  top: 8px;
-  right: 8px;
-
-  display: flex;
-  padding: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  /* cursor: pointer; */
-  background-color: inherit;
-} */
 
 
  
