@@ -557,13 +557,14 @@ width: 231px;
     padding-bottom: 60px;
 }
 .footer-title {
+    display: block;
     font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 20px;
     padding-left: 0;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
+
     color: var(--hero-100pr);
 text-transform: uppercase;
 }
@@ -584,7 +585,22 @@ text-transform: uppercase;
 }
 
 /* footer e-mail */
- .footer-form {
+.footer-form {
+    display: flex;
+}
+
+.form-title {
+    font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--hero-100pr);
+   text-transform: uppercase;
+}
+
+ .sign-form {
      display: flex;
  }
 .email-footer {
@@ -595,6 +611,8 @@ margin: 0;
 padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 16px;
+line-height: 20px;
+font-family: inherit;
 border: 1px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -631,6 +649,7 @@ fill: var(--hero-100pr);
 }
 
 .button-footer {
+    display: flex;
     width: 200px;
     height: 50px;
     position: relative;
@@ -858,6 +877,16 @@ transition: opacity var(--animation);
   border-radius: 50%;
   cursor: pointer;
   background-color: inherit
+}
+
+/* оформлення модального вікна */
+.modal-title {
+    margin: 0;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+color: var(--title-text-color);
 }
 
 

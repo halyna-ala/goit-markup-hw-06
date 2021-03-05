@@ -445,20 +445,20 @@
 </section>
 </div>
 <section>
- <h2 class="footer-title">Подпишитесь на рассылку</h2>
- <div class="footer-form">
-   <form name="sign-form" autocomplete="on" novalidate>
-     <label>
-       <input class="email-footer" type="email" name="email" placeholder="E-mail" />
-      </label>
-    </form>
-    <button class="button-footer" type="submit">Подписаться
-      <svg class="leter-btn" width="24"  height="24">
-        <use  href="./images/symbol-defs.svg#icon-send"></use>
-      </svg>
-    </button>
-  </div>
-  </section>
+  <h2 class="footer-title">Подпишитесь на рассылку</h2>
+    <div>
+      <form class="footer-form" name="subscribe-form" autocomplete="on" novalidate>
+        <input class="email-footer" type="email" name="email" placeholder="E-mail" />
+        
+          <button class="button-footer" type="submit">Подписаться
+            <svg class="leter-btn" width="24"  height="24">
+              <use  href="./images/symbol-defs.svg#icon-send"></use>
+            </svg>
+          </button>
+        
+      </form>
+    </div>
+    </section>
 </div>
   </footer>
 
@@ -469,6 +469,27 @@
           <use href="./images/symbol-defs.svg#icon-close-black-1" ></use>
         </svg>
       </button>
+      <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+
+      <form class="signup-form">
+  
+        <div class="group">
+    
+          <label for="user_name" class="sign-label">Имя</label>
+    <input type="text" name="username">
+  </div>
+  
+  <div class="group">
+    <label for="user_tel" class="sign-label">Телефон</label>
+    <input type="text" name="tel">
+  </div>
+
+  <div class="group">
+    <label for="user_email" class="sign-label">Почта</label>
+    <input type="email" name="email">
+  </div>
+</form>
+<form action=""></form>
     </div>
   </div>
   <script src="./modal.js" ></script>
