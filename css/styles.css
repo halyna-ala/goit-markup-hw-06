@@ -1032,6 +1032,7 @@ color: var(--modal-bg-btn);
     border-radius: 3px;
     fill: none;
     cursor: pointer;
+    transition: background-color var(--animation);
 }
 
 .checkbox:focus + .chackbox-icon {
